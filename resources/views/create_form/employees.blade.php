@@ -17,31 +17,32 @@
                 </div>
 
                 <div class="col-12">
-                    <form class="row g-3">
+                    <form method="post" action="/create_form/employees" class="row g-3">
+                        @csrf
                         <div class="col-md-12">
                             <label for="inputEmail4" class="form-label">Photo</label>
-                            <input type="file" class="form-control" id="inputEmail4">
+                            <input type="file" class="form-control" id="inputEmail4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control" id="inputPassword4" required>
                         </div>
 
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Contact</label>
-                            <input type="tel" class="form-control" id="inputPassword4">
+                            <input type="tel" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputPassword4" class="form-label">Birthday</label>
-                            <input type="date" class="form-control" id="inputPassword4">
+                            <input type="date" class="form-control" id="inputPassword4" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Gender</label>
@@ -73,7 +74,7 @@
                             <label for="inputPassword4" class="form-label">Basic Rate</label>
                             <input type="number" class="form-control" id="inputPassword4">
                         </div>
- 
+
                         <div class="col-md-6">
                             <label for="inputState" class="form-label">Philhealth Contribution table</label>
                             <select id="inputState" class="form-select">
