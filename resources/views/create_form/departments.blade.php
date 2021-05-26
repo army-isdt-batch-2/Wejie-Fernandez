@@ -22,7 +22,8 @@
                         @csrf
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Department</label>
-                            <input type="text" class="form-control" id="inputEmail4" name="department" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="department" name="department"
+                                required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

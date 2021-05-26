@@ -24,6 +24,7 @@ class CreateEmployeesTable extends Migration
             $table->date('birthday');
             $table->enum('gender',['Male','Female']);
             $table->string('designation');
+            $table->integer('basic_rate');
             $table->unSignedBigInteger('department_id')->index();
             $table->unSignedBigInteger('sss_id')->index();
             $table->unSignedBigInteger('ph_id')->index();

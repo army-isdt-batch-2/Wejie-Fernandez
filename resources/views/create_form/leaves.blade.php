@@ -22,30 +22,30 @@
                         @csrf
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee ID</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="employee_id" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Fullname</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="fullname" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Designation</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="designation" required>
                         </div>
 
                         <!-- first column -->
                         <div class="col-md-4">
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Leave type</label>
-                                <input type="text" class="form-control" id="inputEmail4" required>
+                                <input type="text" class="form-control" id="inputEmail4" name="leave_type" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Start</label>
-                                <input type="date" class="form-control" id="inputEmail4" required>
+                                <input type="date" class="form-control" id="inputEmail4" name"start_date" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">End</label>
-                                <input type="date" class="form-control" id="inputEmail4" required>
+                                <input type="date" class="form-control" id="inputEmail4" name="end_date" required>
                             </div>
                         </div>
 

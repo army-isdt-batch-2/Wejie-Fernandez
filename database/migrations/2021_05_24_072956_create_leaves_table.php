@@ -16,6 +16,8 @@ class CreateLeavesTable extends Migration
         Schema::create('leaves', function (Blueprint $table) {
             $table->id();
             $table->integer('employee_id');
+            $table->string('fullname');
+            $table->string('designation');
             $table->enum('leave_type',['vacation_leave','parental_leave','study_leave','sick_leave','Maternity_leave']);
             $table->date('start_date');
             $table->date('end_date');

@@ -29,19 +29,20 @@
                         </div>
                         <div class="col-md-8">
                             <label for="inputEmail4" class="form-label">Base Range</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="base_range" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Monthly Contribution</label>
-                            <input type="number" class="form-control" id="inputEmail4" required>
+                            <input type="number" class="form-control" id="inputEmail4" name="monthly_contribution"
+                                required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee Share</label>
-                            <input type="number" class="form-control" id="inputEmail4" required>
+                            <input type="number" class="form-control" id="inputEmail4" name="employee_share" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employer Share</label>
-                            <input type="number" class="form-control" id="inputEmail4" required>
+                            <input type="number" class="form-control" id="inputEmail4" name="employer_share" required>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Save</button>

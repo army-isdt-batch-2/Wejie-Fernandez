@@ -22,22 +22,23 @@
                         @csrf
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Employee ID</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="employee_id" required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Fullname</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="employee_id name=" fullname"
+                                required>
                         </div>
                         <div class="col-md-4">
                             <label for="inputEmail4" class="form-label">Designation</label>
-                            <input type="text" class="form-control" id="inputEmail4" required>
+                            <input type="text" class="form-control" id="inputEmail4" name="designation" required>
                         </div>
 
                         <!-- first column -->
                         <div class="col-md-4">
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Loan type</label>
-                                <input type="text" class="form-control" id="inputEmail4" required>
+                                <input type="text" class="form-control" id="inputEmail4" name="" required>
                             </div>
                             <div class="col-md-12">
                                 <label for="inputEmail4" class="form-label">Loan Amount</label>

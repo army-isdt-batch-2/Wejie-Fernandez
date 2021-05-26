@@ -16,6 +16,8 @@ class CreateLoansTable extends Migration
         Schema::create('loans', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('employee_id')->index();
+            $table->string('fullname');
+            $table->string('designation');
             $table->foreign('employee_id')->references('id')->on('employees');
             $table->enum('loan_type',['calamity_loan','car_loan','home_equity_loan','students_loan','salary_loan']);
             $table->integer('amount');
